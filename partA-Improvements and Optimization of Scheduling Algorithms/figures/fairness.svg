@@ -1,0 +1,260 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1220" height="720" viewBox="0 0 1220 720">
+<rect width="100%" height="100%" fill="#fbfbf8"/>
+<text x="86" y="42" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#242424">Fairness Index</text>
+<text x="86" y="70" font-family="Arial, sans-serif" font-size="14" fill="#666">higher is better</text>
+<line x1="86" y1="594.0" x2="1184" y2="594.0" stroke="#e1e1dc" stroke-width="1"/>
+<text x="76" y="598.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#666">0.00</text>
+<line x1="86" y1="494.4" x2="1184" y2="494.4" stroke="#e1e1dc" stroke-width="1"/>
+<text x="76" y="498.4" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#666">0.20</text>
+<line x1="86" y1="394.8" x2="1184" y2="394.8" stroke="#e1e1dc" stroke-width="1"/>
+<text x="76" y="398.8" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#666">0.40</text>
+<line x1="86" y1="295.2" x2="1184" y2="295.2" stroke="#e1e1dc" stroke-width="1"/>
+<text x="76" y="299.2" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#666">0.60</text>
+<line x1="86" y1="195.6" x2="1184" y2="195.6" stroke="#e1e1dc" stroke-width="1"/>
+<text x="76" y="199.6" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#666">0.80</text>
+<line x1="86" y1="96.0" x2="1184" y2="96.0" stroke="#e1e1dc" stroke-width="1"/>
+<text x="76" y="100.0" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#666">1.00</text>
+<line x1="86" y1="96" x2="86" y2="594" stroke="#333" stroke-width="1.2"/>
+<line x1="86" y1="594" x2="1184" y2="594" stroke="#333" stroke-width="1.2"/>
+<text x="134.6" y="626" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">cpu_mixed</text>
+<rect x="86.0" y="334.9" width="8.6" height="259.1" rx="3" fill="#4C78A8">
+<title>cpu_mixed fcfs: 0.520</title>
+</rect>
+<rect x="98.6" y="320.2" width="8.6" height="273.8" rx="3" fill="#F58518">
+<title>cpu_mixed sjf: 0.550</title>
+</rect>
+<rect x="111.3" y="162.7" width="8.6" height="431.3" rx="3" fill="#54A24B">
+<title>cpu_mixed srtf: 0.866</title>
+</rect>
+<rect x="123.9" y="176.0" width="8.6" height="418.0" rx="3" fill="#E45756">
+<title>cpu_mixed rr: 0.839</title>
+</rect>
+<rect x="136.6" y="187.3" width="8.6" height="406.7" rx="3" fill="#72B7B2">
+<title>cpu_mixed priority: 0.817</title>
+</rect>
+<rect x="149.2" y="165.7" width="8.6" height="428.3" rx="3" fill="#B279A2">
+<title>cpu_mixed mlfq: 0.860</title>
+</rect>
+<rect x="161.8" y="202.9" width="8.6" height="391.1" rx="3" fill="#FF9DA6">
+<title>cpu_mixed aamlfq: 0.785</title>
+</rect>
+<rect x="174.5" y="176.9" width="8.6" height="417.1" rx="3" fill="#9D755D">
+<title>cpu_mixed qlearn: 0.837</title>
+</rect>
+<text x="259.7" y="626" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">deadline_pressure</text>
+<rect x="211.1" y="272.3" width="8.6" height="321.7" rx="3" fill="#4C78A8">
+<title>deadline_pressure fcfs: 0.646</title>
+</rect>
+<rect x="223.8" y="218.5" width="8.6" height="375.5" rx="3" fill="#F58518">
+<title>deadline_pressure sjf: 0.754</title>
+</rect>
+<rect x="236.4" y="173.9" width="8.6" height="420.1" rx="3" fill="#54A24B">
+<title>deadline_pressure srtf: 0.844</title>
+</rect>
+<rect x="249.0" y="141.0" width="8.6" height="453.0" rx="3" fill="#E45756">
+<title>deadline_pressure rr: 0.910</title>
+</rect>
+<rect x="261.7" y="182.1" width="8.6" height="411.9" rx="3" fill="#72B7B2">
+<title>deadline_pressure priority: 0.827</title>
+</rect>
+<rect x="274.3" y="137.6" width="8.6" height="456.4" rx="3" fill="#B279A2">
+<title>deadline_pressure mlfq: 0.917</title>
+</rect>
+<rect x="286.9" y="175.1" width="8.6" height="418.9" rx="3" fill="#FF9DA6">
+<title>deadline_pressure aamlfq: 0.841</title>
+</rect>
+<rect x="299.6" y="143.8" width="8.6" height="450.2" rx="3" fill="#9D755D">
+<title>deadline_pressure qlearn: 0.904</title>
+</rect>
+<text x="384.8" y="626" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">deadline_tight</text>
+<rect x="336.2" y="341.7" width="8.6" height="252.3" rx="3" fill="#4C78A8">
+<title>deadline_tight fcfs: 0.507</title>
+</rect>
+<rect x="348.9" y="177.9" width="8.6" height="416.1" rx="3" fill="#F58518">
+<title>deadline_tight sjf: 0.836</title>
+</rect>
+<rect x="361.5" y="177.9" width="8.6" height="416.1" rx="3" fill="#54A24B">
+<title>deadline_tight srtf: 0.836</title>
+</rect>
+<rect x="374.1" y="138.1" width="8.6" height="455.9" rx="3" fill="#E45756">
+<title>deadline_tight rr: 0.915</title>
+</rect>
+<rect x="386.8" y="120.7" width="8.6" height="473.3" rx="3" fill="#72B7B2">
+<title>deadline_tight priority: 0.950</title>
+</rect>
+<rect x="399.4" y="152.2" width="8.6" height="441.8" rx="3" fill="#B279A2">
+<title>deadline_tight mlfq: 0.887</title>
+</rect>
+<rect x="412.1" y="203.5" width="8.6" height="390.5" rx="3" fill="#FF9DA6">
+<title>deadline_tight aamlfq: 0.784</title>
+</rect>
+<rect x="424.7" y="210.8" width="8.6" height="383.2" rx="3" fill="#9D755D">
+<title>deadline_tight qlearn: 0.769</title>
+</rect>
+<text x="509.9" y="626" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">interactive_io</text>
+<rect x="461.3" y="326.6" width="8.6" height="267.4" rx="3" fill="#4C78A8">
+<title>interactive_io fcfs: 0.537</title>
+</rect>
+<rect x="474.0" y="312.4" width="8.6" height="281.6" rx="3" fill="#F58518">
+<title>interactive_io sjf: 0.565</title>
+</rect>
+<rect x="486.6" y="128.1" width="8.6" height="465.9" rx="3" fill="#54A24B">
+<title>interactive_io srtf: 0.936</title>
+</rect>
+<rect x="499.3" y="166.9" width="8.6" height="427.1" rx="3" fill="#E45756">
+<title>interactive_io rr: 0.858</title>
+</rect>
+<rect x="511.9" y="125.8" width="8.6" height="468.2" rx="3" fill="#72B7B2">
+<title>interactive_io priority: 0.940</title>
+</rect>
+<rect x="524.5" y="114.6" width="8.6" height="479.4" rx="3" fill="#B279A2">
+<title>interactive_io mlfq: 0.963</title>
+</rect>
+<rect x="537.2" y="122.6" width="8.6" height="471.4" rx="3" fill="#FF9DA6">
+<title>interactive_io aamlfq: 0.947</title>
+</rect>
+<rect x="549.8" y="124.6" width="8.6" height="469.4" rx="3" fill="#9D755D">
+<title>interactive_io qlearn: 0.943</title>
+</rect>
+<text x="635.0" y="626" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">io_heavy</text>
+<rect x="586.4" y="359.0" width="8.6" height="235.0" rx="3" fill="#4C78A8">
+<title>io_heavy fcfs: 0.472</title>
+</rect>
+<rect x="599.1" y="199.0" width="8.6" height="395.0" rx="3" fill="#F58518">
+<title>io_heavy sjf: 0.793</title>
+</rect>
+<rect x="611.7" y="133.6" width="8.6" height="460.4" rx="3" fill="#54A24B">
+<title>io_heavy srtf: 0.924</title>
+</rect>
+<rect x="624.4" y="191.0" width="8.6" height="403.0" rx="3" fill="#E45756">
+<title>io_heavy rr: 0.809</title>
+</rect>
+<rect x="637.0" y="140.8" width="8.6" height="453.2" rx="3" fill="#72B7B2">
+<title>io_heavy priority: 0.910</title>
+</rect>
+<rect x="649.6" y="126.3" width="8.6" height="467.7" rx="3" fill="#B279A2">
+<title>io_heavy mlfq: 0.939</title>
+</rect>
+<rect x="662.3" y="146.2" width="8.6" height="447.8" rx="3" fill="#FF9DA6">
+<title>io_heavy aamlfq: 0.899</title>
+</rect>
+<rect x="674.9" y="128.0" width="8.6" height="466.0" rx="3" fill="#9D755D">
+<title>io_heavy qlearn: 0.936</title>
+</rect>
+<text x="760.1" y="626" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">long_tail_cpu</text>
+<rect x="711.6" y="360.4" width="8.6" height="233.6" rx="3" fill="#4C78A8">
+<title>long_tail_cpu fcfs: 0.469</title>
+</rect>
+<rect x="724.2" y="159.5" width="8.6" height="434.5" rx="3" fill="#F58518">
+<title>long_tail_cpu sjf: 0.872</title>
+</rect>
+<rect x="736.8" y="159.5" width="8.6" height="434.5" rx="3" fill="#54A24B">
+<title>long_tail_cpu srtf: 0.872</title>
+</rect>
+<rect x="749.5" y="299.7" width="8.6" height="294.3" rx="3" fill="#E45756">
+<title>long_tail_cpu rr: 0.591</title>
+</rect>
+<rect x="762.1" y="184.7" width="8.6" height="409.3" rx="3" fill="#72B7B2">
+<title>long_tail_cpu priority: 0.822</title>
+</rect>
+<rect x="774.8" y="314.3" width="8.6" height="279.7" rx="3" fill="#B279A2">
+<title>long_tail_cpu mlfq: 0.562</title>
+</rect>
+<rect x="787.4" y="258.9" width="8.6" height="335.1" rx="3" fill="#FF9DA6">
+<title>long_tail_cpu aamlfq: 0.673</title>
+</rect>
+<rect x="800.0" y="201.8" width="8.6" height="392.2" rx="3" fill="#9D755D">
+<title>long_tail_cpu qlearn: 0.787</title>
+</rect>
+<text x="885.2" y="626" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">mixed_large</text>
+<rect x="836.7" y="400.0" width="8.6" height="194.0" rx="3" fill="#4C78A8">
+<title>mixed_large fcfs: 0.390</title>
+</rect>
+<rect x="849.3" y="278.1" width="8.6" height="315.9" rx="3" fill="#F58518">
+<title>mixed_large sjf: 0.634</title>
+</rect>
+<rect x="861.9" y="272.0" width="8.6" height="322.0" rx="3" fill="#54A24B">
+<title>mixed_large srtf: 0.647</title>
+</rect>
+<rect x="874.6" y="191.8" width="8.6" height="402.2" rx="3" fill="#E45756">
+<title>mixed_large rr: 0.808</title>
+</rect>
+<rect x="887.2" y="306.3" width="8.6" height="287.7" rx="3" fill="#72B7B2">
+<title>mixed_large priority: 0.578</title>
+</rect>
+<rect x="899.9" y="192.7" width="8.6" height="401.3" rx="3" fill="#B279A2">
+<title>mixed_large mlfq: 0.806</title>
+</rect>
+<rect x="912.5" y="261.7" width="8.6" height="332.3" rx="3" fill="#FF9DA6">
+<title>mixed_large aamlfq: 0.667</title>
+</rect>
+<rect x="925.1" y="235.1" width="8.6" height="358.9" rx="3" fill="#9D755D">
+<title>mixed_large qlearn: 0.721</title>
+</rect>
+<text x="1010.3" y="626" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">short_burst_storm</text>
+<rect x="961.8" y="420.5" width="8.6" height="173.5" rx="3" fill="#4C78A8">
+<title>short_burst_storm fcfs: 0.348</title>
+</rect>
+<rect x="974.4" y="173.2" width="8.6" height="420.8" rx="3" fill="#F58518">
+<title>short_burst_storm sjf: 0.845</title>
+</rect>
+<rect x="987.1" y="173.2" width="8.6" height="420.8" rx="3" fill="#54A24B">
+<title>short_burst_storm srtf: 0.845</title>
+</rect>
+<rect x="999.7" y="314.6" width="8.6" height="279.4" rx="3" fill="#E45756">
+<title>short_burst_storm rr: 0.561</title>
+</rect>
+<rect x="1012.3" y="181.9" width="8.6" height="412.1" rx="3" fill="#72B7B2">
+<title>short_burst_storm priority: 0.828</title>
+</rect>
+<rect x="1025.0" y="311.5" width="8.6" height="282.5" rx="3" fill="#B279A2">
+<title>short_burst_storm mlfq: 0.567</title>
+</rect>
+<rect x="1037.6" y="188.9" width="8.6" height="405.1" rx="3" fill="#FF9DA6">
+<title>short_burst_storm aamlfq: 0.813</title>
+</rect>
+<rect x="1050.2" y="202.6" width="8.6" height="391.4" rx="3" fill="#9D755D">
+<title>short_burst_storm qlearn: 0.786</title>
+</rect>
+<text x="1135.4" y="626" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#333">starvation_risk</text>
+<rect x="1086.9" y="400.5" width="8.6" height="193.5" rx="3" fill="#4C78A8">
+<title>starvation_risk fcfs: 0.389</title>
+</rect>
+<rect x="1099.5" y="400.5" width="8.6" height="193.5" rx="3" fill="#F58518">
+<title>starvation_risk sjf: 0.389</title>
+</rect>
+<rect x="1112.2" y="123.9" width="8.6" height="470.1" rx="3" fill="#54A24B">
+<title>starvation_risk srtf: 0.944</title>
+</rect>
+<rect x="1124.8" y="150.2" width="8.6" height="443.8" rx="3" fill="#E45756">
+<title>starvation_risk rr: 0.891</title>
+</rect>
+<rect x="1137.4" y="123.9" width="8.6" height="470.1" rx="3" fill="#72B7B2">
+<title>starvation_risk priority: 0.944</title>
+</rect>
+<rect x="1150.1" y="112.3" width="8.6" height="481.7" rx="3" fill="#B279A2">
+<title>starvation_risk mlfq: 0.967</title>
+</rect>
+<rect x="1162.7" y="107.9" width="8.6" height="486.1" rx="3" fill="#FF9DA6">
+<title>starvation_risk aamlfq: 0.976</title>
+</rect>
+<rect x="1175.4" y="169.5" width="8.6" height="424.5" rx="3" fill="#9D755D">
+<title>starvation_risk qlearn: 0.852</title>
+</rect>
+<rect x="86" y="654" width="14" height="14" rx="2" fill="#4C78A8"/>
+<text x="106" y="666" font-family="Arial, sans-serif" font-size="13" fill="#333">fcfs</text>
+<rect x="180" y="654" width="14" height="14" rx="2" fill="#F58518"/>
+<text x="200" y="666" font-family="Arial, sans-serif" font-size="13" fill="#333">sjf</text>
+<rect x="274" y="654" width="14" height="14" rx="2" fill="#54A24B"/>
+<text x="294" y="666" font-family="Arial, sans-serif" font-size="13" fill="#333">srtf</text>
+<rect x="368" y="654" width="14" height="14" rx="2" fill="#E45756"/>
+<text x="388" y="666" font-family="Arial, sans-serif" font-size="13" fill="#333">rr</text>
+<rect x="462" y="654" width="14" height="14" rx="2" fill="#72B7B2"/>
+<text x="482" y="666" font-family="Arial, sans-serif" font-size="13" fill="#333">priority</text>
+<rect x="556" y="654" width="14" height="14" rx="2" fill="#B279A2"/>
+<text x="576" y="666" font-family="Arial, sans-serif" font-size="13" fill="#333">mlfq</text>
+<rect x="650" y="654" width="14" height="14" rx="2" fill="#FF9DA6"/>
+<text x="670" y="666" font-family="Arial, sans-serif" font-size="13" fill="#333">aamlfq</text>
+<rect x="744" y="654" width="14" height="14" rx="2" fill="#9D755D"/>
+<text x="764" y="666" font-family="Arial, sans-serif" font-size="13" fill="#333">qlearn</text>
+</svg>

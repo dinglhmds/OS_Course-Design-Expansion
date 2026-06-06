@@ -1,0 +1,8 @@
+pid,arrival,burst,priority,deadline,io_interval,io_duration
+IO1,0,16,2,70,1,5
+IO2,1,14,2,68,2,4
+IO3,2,12,3,66,1,3
+IO4,3,10,3,64,2,5
+CPU1,0,26,7,100,0,0
+CPU2,4,22,8,110,0,0
+DAEMON,6,8,5,80,1,6
