@@ -1,0 +1,6 @@
+scheduler
+results/*.csv
+results/*.txt
+results/processes/
+results/traces/
+!results/.gitkeep
