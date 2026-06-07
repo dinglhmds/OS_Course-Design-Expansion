@@ -1,0 +1,7 @@
+scheduler,context_switches,preemptions,events
+RMS,224,70,224
+EDF,223,68,223
+LLF,347,192,347
+DMS,224,70,224
+FCFS,155,0,155
+SJF,155,0,155

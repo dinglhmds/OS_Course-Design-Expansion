@@ -1,0 +1,19 @@
+category,test_name,result
+Task Management,task_init,PASS
+Task Management,task_utilization,PASS
+Task Management,task_execute,PASS
+Task Management,task_deadline_miss,PASS
+TaskSet,taskset_utilization,PASS
+TaskSet,taskset_rms_bound,PASS
+RMS,rms_ll_test_pass,PASS
+RMS,rms_ll_test_fail,PASS
+RMS,rms_rta_exact,PASS
+EDF,edf_util_test,PASS
+Simulator,simulator_rms_basic,PASS
+Simulator,simulator_edf_basic,PASS
+Simulator,simulator_edf_overload,PASS
+Utility,math_gcd_lcm,PASS
+Utility,math_round4,PASS
+Summary,total_passed,15
+Summary,total_failed,0
+Summary,elapsed_ms,0.082
