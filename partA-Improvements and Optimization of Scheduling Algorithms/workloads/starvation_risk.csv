@@ -1,0 +1,8 @@
+pid,arrival,burst,priority,deadline,io_interval,io_duration
+LOW,0,32,9,100,0,0
+H1,1,4,1,18,0,0
+H2,4,4,1,24,0,0
+H3,7,4,1,30,0,0
+H4,10,4,1,36,0,0
+H5,13,4,1,42,0,0
+M1,16,8,4,64,0,0

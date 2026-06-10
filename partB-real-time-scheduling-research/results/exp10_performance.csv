@@ -1,0 +1,7 @@
+scheduler,sim_time_ms,tasks,speed_factor
+RMS,0.292,10,1.0000
+EDF,0.303,10,0.9637
+LLF,0.308,10,0.9481
+DMS,0.295,10,0.9898
+FCFS,0.248,10,1.1774
+SJF,0.264,10,1.1061
