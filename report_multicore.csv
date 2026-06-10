@@ -1,0 +1,2 @@
+Algorithm,Speedup,Migration_Count,Avg_Migrations,Total_Burst,Total_Time,Num_CPUs
+GlobalRR,1.0,0,0.0,40,20,2
